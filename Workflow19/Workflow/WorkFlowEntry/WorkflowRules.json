@@ -1,0 +1,31 @@
+//[
+//  {
+//    "WorkflowName": "DiscountWithCustomInputNames",
+//    "Rules": [
+//      {
+//        "RuleName": "GiveDiscount10",
+//        "Expression": "basicInfo.country == \"india\" and basicInfo.state == \"rajasthan\""
+//      },
+//      {
+//        "RuleName": "GiveDiscount20",
+//        "Expression": "basicInfo.country == \"europe\" and basicInfo.state == \"rajasthan\""
+//      }
+
+//    ]
+//  }
+//]
+[
+  {
+    "WorkflowName": "DiscountWithCustomInputNames",
+    "Rules": [
+      {
+        "RuleName": "GiveDiscount10",
+        "Expression": "basicInfo.country == \"india\" and basicInfo.state == \"rajasthan\""
+      },
+      {
+        "RuleName": "GiveDiscount20",
+        "Expression": "basicInfo.country == \"europe\" and basicInfo.state == \"rajasthan\""
+      }
+    ]
+  }
+]

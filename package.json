@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@formio/react": "^5.2.3",
+    "react-formio": "^4.3.0"
+  }
+}

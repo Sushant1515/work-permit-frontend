@@ -1,0 +1,7 @@
+{
+  "number": "NUMBER",
+  "title": "TITLE",
+  "valid_from": "VALID FROM",
+  "valid_to": "VALID TO",
+  "work_flow_status": "WORKFLOW STATUS"
+}

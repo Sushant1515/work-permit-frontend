@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+html,
+body {
+  padding: 200px;
+  margin: 500px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* PDF VIEWER */
+#pdfviewer {
+  width: 600px;
+  margin: 0 auto;
+  height: 600px;
+}
+
+#pdfviewer .viewer-layout-toolbar {
+  background: #000;
+  color: #fff;
+  height: 45px;
+}
+
+#pdfviewer .viewer-icon {
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+#pdfviewer .viewer-zoom-popover-target-arrow {
+  border-color: rgb(255 255 255 / 90%) transparent transparent;
+}
+
+#pdfviewer .viewer-menu-item-label,
+#pdfviewer .viewer-search-popover-label,
+#pdfviewer .viewer-menu,
+#pdfviewer .viewer-menu .viewer-icon {
+  color: #000;
+  stroke: #000;
+}
+
+/* END PDF VIEWER */
+
+/* Accordion PDF COMPARE */
+.accordion-header {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+/* ENDAccordion PDF COMPARE */
+/* Progress */
+.k-stepper {
+  margin-top: 1.5rem;
+}
+
+.k-step-indicator {
+  background-color: white !important;
+  border-color: #0fa49e !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.k-step-list-horizontal {
+  flex-direction: row;
+  margin-top: -12px !important;
+}
+
+.k-step-indicator-text {
+  color: black;
+}
+
+.k-i-warning {
+  border-radius: 50%;
+  background-color: Red;
+  font-size: 1.3rem;
+  border-color: red !important;
+}
+
+.k-i-check {
+  color: #0fa49e;
+  border-radius: 50%;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.k-button {
+  background-color: white;
+  border: 1px solid #0fa49e;
+}
+
+.btn-next {
+  background-color: #0fa49e;
+  color: white;
+}
+
+.k-form {
+  width: 900px !important;
+}
+.k-textbox {
+  width: 320px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex > div {
+  margin: 0 1rem 2rem 1rem;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+.k-button-text {
+  text-align: right;
+}
+.k-input-solid {
+  border-color: #0d6efd;
+  color: #495057;
+  background-color: #ffffff;
+}
+.k-input,
+.k-picker {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  border-width: 2px;
+  border-style: solid;
+  outline: 0;
+}

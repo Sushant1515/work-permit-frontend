@@ -1,0 +1,1 @@
+<b>StatusCode: 500 </b> Message: The collection type 'Newtonsoft.Json.Linq.JObject' on '<>f__AnonymousType2`1[Newtonsoft.Json.Linq.JObject].Customer' is not supported.

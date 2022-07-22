@@ -1,0 +1,22 @@
+[
+  {
+    "WorkflowName": "DiscountWithCustomInputNamesNU",
+    "Rules": [
+      {
+        "RuleName": "GiveDiscount10",
+        "Expression": "basicInfo.country == \"india1234\""
+       // "Expression": "(basicInfo.country == \"india\" And basicInfo1.orders == \"india\") or (basicInfo.country2 == \"india2\" And basicInfo1.orders == \"india1\")"
+      },
+      {
+        "RuleName": "GiveDiscount20",
+        "Expression": "(basicInfo.state == \"rajasthan\" and basicInfo.cityname == \"udaipur1\" and Orderinfo.ordername == \"cash\") or Orderinfo.qty>20"
+      },
+      {
+        "RuleName": "GiveDiscountDigital",
+        "Expression": "basicInfo.state == \"rajasthan\" and basicInfo.cityname == \"udaipur\" and Orderinfo.ordername == \"credit\""
+      }
+
+      
+    ]
+  }
+] 
